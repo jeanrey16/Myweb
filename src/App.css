@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 1310px;
+    display: flex;
+    /*border: 8px solid black;*/
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Box-frond-left{
+    width: 50%;
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(0,172,238,1) 50%, rgba(255,255,255,1) 100%);
+      
+}
+.twitter-background{
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+    /*background-color: blueviolet;*/
+    
+}
+.Box-frond-right{
+    width: 50%;
+    max-height: 100%;
+    /*background-color: blue;*/
+    text-align: center;
+    
+   
+}
+.form-box{
+    width: 500px;
+    height: 600px;
+    max-width: 50%;
+    max-height: 50%;
+    /*background-color: blueviolet;*/
+    margin: 25% 20% 25% 20%;
+    /*border: 1px solid black;*/
+    border-radius: 5px; 
+}
+
+.Twitter-logo{
+    /*background-color: coral;*/
+    width: 100PX;
+    height: 100PX;
+    display: flex;
+    margin-left: 40%;   
+}
+
+.Welcome{
+    margin-bottom: 10px;
+    /*background-color: rgb(42, 165, 61);*/
+}
+.Join{
+
+     /*background-color: darkgoldenrod;*/
+}
+.Log-in {
+    margin: 0% 25% 0% 25% ;
+    /*background-color: palegreen;*/
+}
+.Log-into{
+    text-align: left;
+    margin-top: 50PX;
+    margin-bottom: 30PX;
+}
+.User{
+    width: 200px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid  rgb(0,172,238) ;
+}
+.Password{
+    width: 200px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid  rgb(0,172,238) ;
+}
+
+.Submit{
+    width: 200px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(0,172,238);
+    border-radius: 50px;
+    border-color:  rgb(0,172,238) ;
+}
+.Create-account{
+    width: 200px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    border-radius: 50px ;
+    border-color: rgb(0,172,238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(0,172,238);
+
+}
+ @media screen and (max-width:1900px){
+    .twitter-background{
+        margin-top: 38%;
+    }
+    .form-box{
+        margin-top: 38%;
+    }  
+    
+}
+@media screen and (max-width:1400px) {
+    .twitter-background{
+        margin-top: 60%;
+    }
+    .form-box{
+        margin-top: 50%;
+        
+    }
+    
+}
+@media screen and (max-width:1050px) {
+    .twitter-background{
+        margin-top: 80%;
+    }
+    .form-box{
+        margin-top: 70%;
+        
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .twitter-background{
+        margin-top: 120%;
+    }
+    .form-box{
+        margin-top: 100%;   
+    }
+    .Log-in{
+        margin-left: 6%;
+    }
+    
+}
