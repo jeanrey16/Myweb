@@ -28,8 +28,8 @@
 }
 .Box-frond-right{
     width: 50%;
-    max-height: 100%;
-    /*background-color: blue;*/
+    max-height: 50%;
+      /*background-color: blue;*/
     text-align: center;
     
    
@@ -37,8 +37,8 @@
 .form-box{
     width: 500px;
     height: 600px;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
     /*background-color: blueviolet;*/
     margin: 25% 20% 25% 20%;
     /*border: 1px solid black;*/
@@ -123,19 +123,22 @@
     }
     .form-box{
         margin-top: 50%;
-        
+        margin-left: 10%;
+                    
     }
-    
+      
 }
 @media screen and (max-width:1050px) {
     .twitter-background{
         margin-top: 80%;
+        
     }
     .form-box{
         margin-top: 70%;
+        margin-left: 5%;
         
     }
-    
+           
 }
 @media screen and (max-width:900px) {
     .twitter-background{
@@ -144,8 +147,36 @@
     .form-box{
         margin-top: 100%;   
     }
-    .Log-in{
-        margin-left: 6%;
+    .main-container{
+        max-height: 1180px;
     }
     
+    
+}@media screen and (max-width:720px){
+    .Box-frond-right{
+        width: 90%;
+    }.twitter-background{
+        display: none;
+    }
+    .main-container{
+        max-width:  1000px; ;
+    }
+}@media screen and (max-width:500px){
+    .form-box{
+        margin-left: 0%;
+        margin-top: 80%;
+    }
+    .main-container{
+        max-height: 900px;
+    }
+
+@media screen and (max-width:400px){
+    .form-box{
+        margin-top: 60%;   
+    }
+    .main-container{
+        max-height: 844px;
+    }
+    
+}
 }
