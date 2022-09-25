@@ -14,8 +14,7 @@
 .Box-frond-left{
     width: 50%;
     background: rgb(0,172,238);
-    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(0,172,238,1) 50%, rgba(255,255,255,1) 100%);
-      
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(0,172,238,1) 50%, rgba(255,255,255,1) 100%);  
 }
 .twitter-background{
     max-width: 50%;
@@ -23,16 +22,13 @@
     margin-top: 25%;
     margin-bottom: 25%;
     margin-left: 25%;
-    /*background-color: blueviolet;*/
-    
+    /*background-color: blueviolet;*/  
 }
 .Box-frond-right{
     width: 50%;
     max-height: 50%;
       /*background-color: blue;*/
-    text-align: center;
-    
-   
+    text-align: center; 
 }
 .form-box{
     width: 500px;
@@ -44,7 +40,6 @@
     /*border: 1px solid black;*/
     border-radius: 5px; 
 }
-
 .Twitter-logo{
     /*background-color: coral;*/
     width: 100PX;
@@ -52,14 +47,9 @@
     display: flex;
     margin-left: 40%;   
 }
-
 .Welcome{
     margin-bottom: 10px;
     /*background-color: rgb(42, 165, 61);*/
-}
-.Join{
-
-     /*background-color: darkgoldenrod;*/
 }
 .Log-in {
     margin: 0% 25% 0% 25% ;
@@ -86,7 +76,6 @@
     border-radius: 5px;
     border-bottom: 1px solid  rgb(0,172,238) ;
 }
-
 .Submit{
     width: 200px;
     height: 40px;
@@ -114,8 +103,7 @@
     }
     .form-box{
         margin-top: 38%;
-    }  
-    
+    }     
 }
 @media screen and (max-width:1400px) {
     .twitter-background{
@@ -123,22 +111,18 @@
     }
     .form-box{
         margin-top: 50%;
-        margin-left: 10%;
-                    
+        margin-left: 10%;                 
     }
       
 }
 @media screen and (max-width:1050px) {
     .twitter-background{
-        margin-top: 80%;
-        
+        margin-top: 80%;       
     }
     .form-box{
         margin-top: 70%;
-        margin-left: 5%;
-        
-    }
-           
+        margin-left: 5%;     
+    }       
 }
 @media screen and (max-width:900px) {
     .twitter-background{
@@ -149,9 +133,7 @@
     }
     .main-container{
         max-height: 1180px;
-    }
-    
-    
+    }  
 }@media screen and (max-width:720px){
     .Box-frond-right{
         width: 90%;
@@ -169,14 +151,12 @@
     .main-container{
         max-height: 900px;
     }
-
 @media screen and (max-width:400px){
     .form-box{
         margin-top: 60%;   
     }
     .main-container{
         max-height: 844px;
-    }
-    
+    }  
 }
 }
