@@ -76,6 +76,14 @@
     border-radius: 5px;
     border-bottom: 1px solid  rgb(0,172,238) ;
 }
+.UserName{
+    width: 200px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid  rgb(0,172,238) ;
+}
 .Submit{
     width: 200px;
     height: 40px;

@@ -14,10 +14,7 @@ function App(){
     else{
       setShow(true)
     }    
-  }
-    
-  
-  
+  } 
   return (
     <div className="App">
       <div className='main-container'>
@@ -39,12 +36,13 @@ function App(){
           {show===true ? (
             <CreateAccount/>
           ):(
+            <>
             <h3 className='Log-into'>Log into Twitter</h3>
+            <input type={'email'} className='User' placeholder='Email'></input>
+            <input type={'password'} className='Password' placeholder='Password'></input>
+            <input type={'submit'} className='Submit'value={'Log in'}></input>  
+          </>
           )}
-          
-          <input type={'email'} className='User' placeholder='Email'></input>
-          <input type={'password'} className='Password' placeholder='Password'></input>
-          <input type={'submit'} className='Submit'value={'Log in'}></input>
           <button className='Create-account' onClick={click}>Create new account</button>
         </div>
         </div>
