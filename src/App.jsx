@@ -5,6 +5,7 @@ import twitterlogowhite from './images/Twitter-logo-white.png';
 import CreateAccount from './Components/CreateAccount';
 import { useState } from 'react';
 
+
 function App(){
   const [show,setShow]=useState(false)
   function click (){  
@@ -15,6 +16,7 @@ function App(){
       setShow(true)
     }    
   } 
+  
   return (
     <div className="App">
       <div className='main-container'>
@@ -24,7 +26,7 @@ function App(){
            src={twitterlogowhite}
            alt='twitter logo'/>               
         </div>
-      <div className='Box-frond-right'>
+        <div className='Box-frond-right'>
         <div className='form-box'>
         <img
          className='Twitter-logo'
