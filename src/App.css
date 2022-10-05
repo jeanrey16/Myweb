@@ -109,10 +109,27 @@ background-color: blueviolet;
     border-color: rgb(0,172,238);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:  rgb(0,172,238);
-    cursor: pointer;
+    cursor: pointer; 
+}
+
+.apple{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+   
+}
+
+.applelogo{
+    width: 25%;
+    height: 100%;
+    text-align:right;
 
 }
- @media screen and (max-width:1900px){
+.googlelogo{
+    width: 25%;
+    height: 100%;
+}
+@media screen and (max-width:1900px){
     .twitter-background{
         margin-top: 38%;
     }
