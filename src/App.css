@@ -53,6 +53,9 @@ background-color: blueviolet;
     margin-left: 40%;   
 }
 
+@keyframes rotation{
+    
+}
  
 .Welcome{
     margin-bottom: 10px;
