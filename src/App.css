@@ -52,6 +52,8 @@ background-color: blueviolet;
     display: flex;
     margin-left: 40%;   
 }
+
+ 
 .Welcome{
     margin-bottom: 10px;
     /*background-color: rgb(42, 165, 61);*/
@@ -100,6 +102,10 @@ background-color: blueviolet;
     border-color:  rgb(0,172,238) ;
     cursor: pointer;
 }
+
+.Submit:hover{
+    opacity: 0.4;
+}
 .Create-account{
     width: 200px;
     height: 40px;
@@ -109,9 +115,13 @@ background-color: blueviolet;
     border-color: rgb(0,172,238);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:  rgb(0,172,238);
-    cursor: pointer; 
+    cursor: pointer;
+     
 }
 
+.Create-account:hover{
+    opacity: 0.4;
+}
 .apple{
     width: 100%;
     height: 30px;
