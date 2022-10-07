@@ -25,10 +25,6 @@
     /*background-color: blueviolet;*/  
 }
 
-.squeare{
-background-color: blueviolet;
-}
-
 .Box-frond-right{
     width: 50%;
     max-height: 50%;
@@ -50,13 +46,18 @@ background-color: blueviolet;
     width: 100PX;
     height: 100PX;
     display: flex;
-    margin-left: 40%;   
+    margin-left: 40%;
+    animation:rotation 8s ease-in-out infinite ;
+    animation-direction: alternate;   
 }
-
-@keyframes rotation{
-    
+@keyframes rotation {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(35deg);
+    }   
 }
- 
 .Welcome{
     margin-bottom: 10px;
     /*background-color: rgb(42, 165, 61);*/
@@ -105,7 +106,6 @@ background-color: blueviolet;
     border-color:  rgb(0,172,238) ;
     cursor: pointer;
 }
-
 .Submit:hover{
     opacity: 0.4;
 }
@@ -118,29 +118,49 @@ background-color: blueviolet;
     border-color: rgb(0,172,238);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:  rgb(0,172,238);
-    cursor: pointer;
-     
+    cursor: pointer;   
 }
-
 .Create-account:hover{
     opacity: 0.4;
 }
 .apple{
     width: 100%;
     height: 30px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px; 
 }
-
 .applelogo{
     width: 25%;
     height: 100%;
     text-align:right;
-
+}
+.applelogo:hover{
+    animation:salto 1s ease-in-out 1 alternate forwards;
+    cursor: pointer;
+}
+@keyframes salto{
+    from{
+        transform:scale();
+    }
+    to{
+        transform:scale(1.5);
+    }
 }
 .googlelogo{
     width: 25%;
     height: 100%;
+}
+.googlelogo:hover{
+    animation:salto 1s ease-in-out 1 alternate forwards;
+    cursor: pointer;
+}
+
+@keyframes salto{
+    from{
+        transform:scale();
+    }
+    to{
+        transform:scale(1.5);
+    }
 }
 @media screen and (max-width:1900px){
     .twitter-background{
@@ -157,8 +177,7 @@ background-color: blueviolet;
     .form-box{
         margin-top: 50%;
         margin-left: 10%;                 
-    }
-      
+    }    
 }
 @media screen and (max-width:1050px) {
     .twitter-background{
