@@ -16,7 +16,6 @@ function App(){
       setShow(true)
     }    
   } 
-  
   return (
     <div className="App">
       <div className='main-container'>
